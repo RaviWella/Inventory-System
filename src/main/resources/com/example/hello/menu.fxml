@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="menuanc" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="445.0" prefWidth="650.0" style="-fx-background-color: #08737f;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hello.MENU">
+   <children>
+      <ImageView fitHeight="463.0" fitWidth="663.0">
+         <image>
+            <Image url="@../../../images/start_menu.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="backToStart" layoutX="60.0" layoutY="389.0" mnemonicParsing="false" onAction="#onBackButtonClick" prefHeight="25.0" prefWidth="95.0" style="-fx-background-color: #DDE6ED;" text="BACK">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="13.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="47.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" wrappingWidth="120.13671875">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="35.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="47.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Add Item" wrappingWidth="120.13671875">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="47.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Delete Item" wrappingWidth="120.13671875">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="47.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Update Item" wrappingWidth="147.13671875">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="47.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- View Item" wrappingWidth="120.13671875">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="47.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Saving Item" wrappingWidth="120.13671875">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="47.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Select four random dealers " wrappingWidth="382.13671875">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="47.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Display the details of randomly selected dealers" wrappingWidth="442.13671875">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="47.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Display the items of the given dealer" wrappingWidth="349.13671875">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="47.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Exit the program" wrappingWidth="195.13671875">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+         </font>
+      </Text>
+      <Button fx:id="add_bbb" layoutX="538.0" layoutY="81.0" mnemonicParsing="false" onAction="#onAddButtonClick" prefHeight="23.0" prefWidth="71.0" style="-fx-background-color: #DDE6ED;" text="ADD">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="del_bb" layoutX="538.0" layoutY="116.0" mnemonicParsing="false" onAction="#onDelButtonClick" prefHeight="23.0" prefWidth="71.0" style="-fx-background-color: #DDE6ED;" text="DELETE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="538.0" layoutY="153.0" mnemonicParsing="false" onAction="#onUpButtonClick" prefHeight="23.0" prefWidth="71.0" style="-fx-background-color: #DDE6ED;" text="UPDATE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="view_bb" layoutX="538.0" layoutY="185.0" mnemonicParsing="false" onAction="#onViewButtonClick" prefHeight="23.0" prefWidth="71.0" style="-fx-background-color: #DDE6ED;" text="VIEW">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="538.0" layoutY="221.0" mnemonicParsing="false" onAction="#onSaveButtonClick" prefHeight="23.0" prefWidth="71.0" style="-fx-background-color: #DDE6ED;" text="SAVE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="538.0" layoutY="251.0" mnemonicParsing="false" onAction="#onSelectButtonclick" prefHeight="23.0" prefWidth="71.0" style="-fx-background-color: #DDE6ED;" text="SELECT">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="538.0" layoutY="286.0" mnemonicParsing="false" onAction="#onDis1ButtonClick" prefHeight="23.0" prefWidth="71.0" style="-fx-background-color: #DDE6ED;" text="DISPLAY">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="538.0" layoutY="349.0" mnemonicParsing="false" onAction="#onExitButtonClick" prefHeight="23.0" prefWidth="71.0" style="-fx-background-color: #DDE6ED;" text="EXIT">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="538.0" layoutY="319.0" mnemonicParsing="false" onAction="#onDis2ButtonClick" prefHeight="23.0" prefWidth="71.0" style="-fx-background-color: #DDE6ED;" text="DISPLAY">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
